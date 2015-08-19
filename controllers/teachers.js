@@ -5,5 +5,5 @@ exports.find = function(req,res){
 
 //when adding
 exports.add = function(req,res){
- res.send('Add add teacher'); 
+ res.send('Add teacher'); 
 }
