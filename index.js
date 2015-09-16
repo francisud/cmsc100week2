@@ -27,6 +27,7 @@ app.use(require('method-override')());
 //__dirname = location of the script
 app.use(require(__dirname + '/config/router')(express.Router()));
 
+app.use(express.static(__dirname + '/public'));
 
 
 //server that listens to the request user
